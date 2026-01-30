@@ -1,0 +1,14 @@
+#celebration {
+  display: none;
+  font-size: 2rem;
+  animation: pop 0.6s ease-in-out infinite alternate;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
