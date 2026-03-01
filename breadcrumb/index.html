@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            display: flex;
+            gap: 10px;
+            /* list-style: none; */
+        }
+
+        li:not(:first-child) {
+            list-style: "/";
+        }
+
+        li.first-child {
+            list-style: none;
+        }
+
+        /* ul li:not(:last-child)a:after {
+            content: " / ";
+            position: absolute;
+            right: -10px;
+            text-decoration: none;
+        } */
+    </style>
+    <script type="module" src="index.js"></script>
+</head>
+
+<body>
+    <h1>BREADCRUMBS GENERATOR</h1>
+    <nav>
+        <ul></ul>
+    </nav>
+    <button>BUTTON</button>
+</body>
+
+</html>

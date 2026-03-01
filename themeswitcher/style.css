@@ -1,0 +1,17 @@
+[data-theme="hawaii"] {
+  --header-bg-col: red;
+}
+
+[data-theme="dark"] {
+  --header-bg-col: black;
+  color: white;
+}
+
+[data-theme="light"] {
+  --header-bg-col: lightblue;
+}
+
+header {
+  background-color: var(--header-bg-col);
+}
+
